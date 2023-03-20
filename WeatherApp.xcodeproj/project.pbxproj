@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669DF64829C337D100A5D10E /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DF64729C337D100A5D10E /* TableView.swift */; };
 		66A75F4828A66ADE00223C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A75F4728A66ADE00223C43 /* AppDelegate.swift */; };
 		66A75F4C28A66ADE00223C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A75F4B28A66ADE00223C43 /* ViewController.swift */; };
 		66A75F5128A66AE600223C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A75F5028A66AE600223C43 /* Assets.xcassets */; };
+		66B3439E29C3A15700D79AA4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B3439D29C3A15700D79AA4 /* Color.xcassets */; };
 		66C5D35E28A94581000A676C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5D35D28A94581000A676C /* Model.swift */; };
-		66C5D36228A9581F000A676C /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C5D36128A9581F000A676C /* Color.xcassets */; };
 		66C5D36428A95A52000A676C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5D36328A95A52000A676C /* MainView.swift */; };
 		66C5D36628A95B13000A676C /* WeatherParametrsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5D36528A95B13000A676C /* WeatherParametrsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		669DF64729C337D100A5D10E /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		66A75F4428A66ADE00223C43 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A75F4728A66ADE00223C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A75F4B28A66ADE00223C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66A75F5028A66AE600223C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A75F5528A66AE600223C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B3439D29C3A15700D79AA4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		66C5D35D28A94581000A676C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		66C5D36128A9581F000A676C /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		66C5D36328A95A52000A676C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		66C5D36528A95B13000A676C /* WeatherParametrsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherParametrsView.swift; sourceTree = "<group>"; };
+		66C5D36528A95B13000A676C /* WeatherParametrsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherParametrsView.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,9 @@
 				66A75F4728A66ADE00223C43 /* AppDelegate.swift */,
 				66A75F4B28A66ADE00223C43 /* ViewController.swift */,
 				66C5D36328A95A52000A676C /* MainView.swift */,
+				669DF64729C337D100A5D10E /* TableView.swift */,
 				66C5D36528A95B13000A676C /* WeatherParametrsView.swift */,
-				66C5D36128A9581F000A676C /* Color.xcassets */,
+				66B3439D29C3A15700D79AA4 /* Color.xcassets */,
 				66A75F5028A66AE600223C43 /* Assets.xcassets */,
 				66A75F5528A66AE600223C43 /* Info.plist */,
 			);
@@ -129,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A75F5128A66AE600223C43 /* Assets.xcassets in Resources */,
-				66C5D36228A9581F000A676C /* Color.xcassets in Resources */,
+				66B3439E29C3A15700D79AA4 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C5D35E28A94581000A676C /* Model.swift in Sources */,
+				669DF64829C337D100A5D10E /* TableView.swift in Sources */,
 				66C5D36428A95A52000A676C /* MainView.swift in Sources */,
 				66C5D36628A95B13000A676C /* WeatherParametrsView.swift in Sources */,
 				66A75F4C28A66ADE00223C43 /* ViewController.swift in Sources */,
